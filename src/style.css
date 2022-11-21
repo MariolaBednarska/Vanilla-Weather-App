@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  background: #eafff7;
 }
 
 h1 {
@@ -19,7 +20,6 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-
   color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
@@ -39,6 +39,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background-color: #cadefc;
 }
 
 .overview {
