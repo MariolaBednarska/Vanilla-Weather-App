@@ -90,7 +90,7 @@ function displayTemperature(response) {
 function search(city) {
   let apiKey = "76e87fa10dd776f7539e2504b51d9012";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-  https: axios.get(apiUrl).then(displayTemperature);
+  axios.get(apiUrl).then(displayTemperature);
 }
 
 function handleSubmit(event) {
@@ -103,4 +103,3 @@ let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
 search("Kraków");
-Footer;
