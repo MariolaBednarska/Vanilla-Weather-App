@@ -1,6 +1,6 @@
 body {
   font-family: arial, sans-serif;
-  background: #ebe4f4;
+  background: url(https://images.pexels.com/photos/2449543/pexels-photo-2449543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center fixed;
 }
 
 h1 {
@@ -37,9 +37,9 @@ li:first-letter {
 
 .weather-app {
   padding: 25px;
-  border: 1px solid #dadde1;
+  border: 1px solid #cadefc;
   border-radius: 10px;
-  background-color: #c5defa;
+  background-color: #cadefc;
 }
 
 .overview {
